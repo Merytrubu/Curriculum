@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Currículum – Merari Nicole Trujillo Bucio</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1d2125;
+    --muted: #5d6670;
+    --line: #dfe3e8;
+    --accent: #1f6f8b;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #16191c; --text: #e8ebee; --muted: #9aa4ae; --line: #2c3238; --accent: #6bb8d4;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16191c; --text: #e8ebee; --muted: #9aa4ae; --line: #2c3238; --accent: #6bb8d4;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 64px; }
+  h1 { font-size: 2.2rem; margin: 0; line-height: 1.15; }
+  .rol { color: var(--accent); font-size: 1.1rem; margin: 4px 0 12px; }
+  .contacto { color: var(--muted); font-size: .95rem; display: flex; flex-wrap: wrap; gap: 4px 20px; }
+  .contacto a { color: var(--muted); }
+  section { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--line); }
+  h2 { font-size: 1.15rem; margin: 0 0 14px; color: var(--accent); }
+  .item { margin-bottom: 18px; }
+  .item h3 { font-size: 1rem; margin: 0; }
+  .item .meta { color: var(--muted); font-size: .9rem; margin: 0 0 4px; }
+  .item p, .item ul { margin: 0; }
+  .id { font-size: .8rem; color: var(--muted); word-break: break-all; }
+  ul { padding-left: 20px; }
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+  .skills li { border: 1px solid var(--line); border-radius: 6px; padding: 3px 10px; font-size: .92rem; }
+  @media print { main { padding: 0; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Merari Nicole Trujillo Bucio</h1>
+    <p class="rol">Estudiante de Ingeniería en Sistemas · Redes e Infraestructura</p>
+    <div class="contacto">
+      <span>Morelos, México</span>
+      <a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a>
+      <span>777 000 0000</span>
+      <a href="https://github.com/Merytrubu">GitHub: Merytrubu</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Perfil</h2>
+    <p>Estudiante de cuarto cuatrimestre con enfoque en redes e infraestructura y bases de programación en Java. Cuento con tres certificaciones de Cisco Networking Academy y práctica en configuración de redes con Packet Tracer. Busco una oportunidad de prácticas o estadía donde seguir aprendiendo y aportar.</p>
+  </section>
+
+  <section>
+    <h2>Certificaciones</h2>
+    <div class="item">
+      <h3>CCNA: Fundamentos de Conmutación, Enrutamiento y Redes Inalámbricas</h3>
+      <p class="meta">Cisco Networking Academy · Septiembre 2026</p>
+      <p class="id">ID: 5ffc6898-3e35-4dec-bacf-caf29b405a1d</p>
+    </div>
+    <div class="item">
+      <h3>Fundamentos de Linux</h3>
+      <p class="meta">Cisco Networking Academy · Abril 2026</p>
+      <p class="id">ID: de8a37bb-5440-4edf-ac65-ade45df57ba6</p>
+    </div>
+    <div class="item">
+      <h3>CCNA: Introducción a las Redes</h3>
+      <p class="meta">Cisco Networking Academy · Diciembre 2025</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Educación</h2>
+    <div class="item">
+      <h3>Ingeniería en Sistemas</h3>
+      <p class="meta">Universidad Tecnológica Emiliano Zapata del Estado de Morelos · 2025 – 2029</p>
+      <p>Cursando el 4.º cuatrimestre. Enfoque en redes e infraestructura.</p>
+    </div>
+    <div class="item">
+      <h3>Preparatoria</h3>
+      <p class="meta">Centro Educativo Montes de Oca · 2024 – 2025</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Habilidades</h2>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Redes (NAT, ACL, WLAN)</li>
+      <li>Cisco Packet Tracer</li>
+      <li>Linux</li>
+      <li>VS Code</li>
+      <li>IntelliJ IDEA</li>
+      <li>Trabajo en equipo</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Idiomas</h2>
+    <p>Español: nativo · Inglés: B2 · Francés: A1</p>
+  </section>
+</main>
+</body>
+</html>
